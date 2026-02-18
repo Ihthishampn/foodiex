@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:foodiex/constants/colors/my_colors.dart';
 import 'package:foodiex/constants/images/images.dart';
 import 'package:foodiex/constants/texts/custom_text.dart';
-import 'package:foodiex/features/auth/login/presentation/widgets/login_button_and_register_button.dart';
+import 'package:foodiex/features/auth/loginAndSignUp/presentation/widgets/login_button_and_register_button.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

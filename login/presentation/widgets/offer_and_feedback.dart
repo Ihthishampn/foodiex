@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodiex/features/auth/login/presentation/widgets/custom_list_tile.dart';
+import 'package:foodiex/features/auth/loginAndSignUp/presentation/widgets/custom_list_tile.dart';
 
 class OfferAndFeedback extends StatelessWidget {
   final double width;

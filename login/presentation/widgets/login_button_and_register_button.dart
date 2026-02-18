@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:foodiex/constants/colors/my_colors.dart';
 import 'package:foodiex/constants/texts/custom_text.dart';
 import 'package:foodiex/features/auth/components/tap_full_width_button.dart';
-import 'package:foodiex/features/auth/login/presentation/widgets/offer_and_feedback.dart';
-import 'package:foodiex/features/auth/login/presentation/widgets/rich_text_formain_heading_login_page.dart';
+import 'package:foodiex/features/auth/loginAndSignUp/presentation/widgets/offer_and_feedback.dart';
+import 'package:foodiex/features/auth/loginAndSignUp/presentation/widgets/rich_text_formain_heading_login_page.dart';
 
 class LoginButtonAndRegisterButton extends StatelessWidget {
   final double height;
@@ -36,6 +36,7 @@ class LoginButtonAndRegisterButton extends StatelessWidget {
               const SizedBox(height: 24),
 
               TapFullWidthButton(
+                
                 width: width,
                 height: height,
               ),
