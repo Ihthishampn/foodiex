@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "549768203410",
+    "project_id": "foodiex-545b6",
+    "storage_bucket": "foodiex-545b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549768203410:android:f5cbd043cfcca028beea4b",
+        "android_client_info": {
+          "package_name": "com.example.foodiex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6zYc7IqCAtOaDTqX4snpfuN76gvkoWsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
