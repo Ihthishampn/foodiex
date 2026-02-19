@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:foodiex/constants/colors/my_colors.dart';
 import 'package:foodiex/features/Home/data/ui_model/food_model.dart';
@@ -8,7 +7,8 @@ class CategorySection extends StatelessWidget {
   final int selected;
   final ValueChanged<int> onSelect;
 
-  const CategorySection({super.key, 
+  const CategorySection({
+    super.key,
     required this.categories,
     required this.selected,
     required this.onSelect,

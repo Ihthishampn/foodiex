@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:foodiex/constants/colors/my_colors.dart';
 import 'package:foodiex/features/Home/data/ui_model/food_model.dart';
@@ -19,6 +18,7 @@ class _OfferBannerSectionState extends State<OfferBannerSection> {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        SizedBox(height: 12),
         SizedBox(
           height: 160,
           child: PageView.builder(
@@ -53,6 +53,7 @@ class _OfferBannerSectionState extends State<OfferBannerSection> {
             ),
           ),
         ),
+        const SizedBox(height: 12),
       ],
     );
   }

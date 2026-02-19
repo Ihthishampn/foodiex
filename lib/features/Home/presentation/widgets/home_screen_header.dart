@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:foodiex/constants/colors/my_colors.dart';
 
@@ -9,11 +8,7 @@ class AppHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
-        gradient: LinearGradient(
-          colors: [Color(0xFF1A1A2E), Color(0xFF16213E)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+        color: MyColors.mainBgBlueColor,
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(32),
           bottomRight: Radius.circular(32),
