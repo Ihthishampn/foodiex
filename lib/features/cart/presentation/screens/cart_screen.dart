@@ -53,14 +53,7 @@ class CartScreen extends StatelessWidget {
           backgroundColor: Colors.white,
           elevation: 0,
           surfaceTintColor: Colors.transparent,
-          leading: GestureDetector(
-            onTap: () => Navigator.pop(context),
-            child: const Icon(
-              Icons.arrow_back_ios_new_rounded,
-              color: Color(0xFF1A1A2E),
-              size: 20,
-            ),
-          ),
+         
           title: const Text(
             "My Cart",
             style: TextStyle(

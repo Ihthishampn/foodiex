@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foodiex/features/profile/presentation/screens/profile_screen.dart';
 
 import '../../../../constants/colors/my_colors.dart';
 
@@ -12,23 +13,33 @@ class TopBarRow extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // Avatar
-          Container(
-            width: 40,
-            height: 40,
-            decoration: BoxDecoration(
-              gradient: const LinearGradient(
-                colors: [AppColors.accent, AppColors.accentSoft],
+          GestureDetector(
+            onTap: () {
+              Navigator.of(context).push(
+                PageRouteBuilder(
+                  transitionDuration: Duration(seconds: 1),
+                  pageBuilder: (context, animation, secondaryAnimation) =>
+                      ProfileScreen(),
+                ),
+              );
+            },
+            child: Container(
+              width: 40,
+              height: 40,
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [AppColors.accent, AppColors.accentSoft],
+                ),
+                borderRadius: BorderRadius.circular(12),
               ),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            alignment: Alignment.center,
-            child: const Text(
-              "I",
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontSize: 16,
+              alignment: Alignment.center,
+              child: const Text(
+                "I",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                ),
               ),
             ),
           ),

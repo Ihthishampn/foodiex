@@ -28,6 +28,7 @@ class _CartItemTileState extends State<CartItemTile> {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
+            // ignore: deprecated_member_use
             color: Colors.black.withOpacity(0.15),
             blurRadius: 10,
             offset: const Offset(0, 4),
@@ -51,7 +52,7 @@ class _CartItemTileState extends State<CartItemTile> {
 
           const SizedBox(width: 12),
 
-          // Name + price
+          // Name , price
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -88,7 +89,7 @@ class _CartItemTileState extends State<CartItemTile> {
             ),
           ),
 
-          // Qty stepper
+          // Qty 
           _QtyStepper(
             qty: qty,
             onDecrement: () {

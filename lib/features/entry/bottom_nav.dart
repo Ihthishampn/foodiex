@@ -84,7 +84,6 @@ class BottomNav extends StatelessWidget {
   _NavItem(Icons.home_rounded, Icons.home_outlined, "Home"),
   _NavItem(Icons.explore_rounded, Icons.explore_outlined, "Explore"),
   _NavItem(Icons.shopping_bag_rounded, Icons.shopping_bag_outlined, "Cart"),
-  _NavItem(Icons.person_rounded, Icons.person_outlined, "Profile"),
 ];
 
 

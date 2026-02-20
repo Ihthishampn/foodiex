@@ -41,6 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
             collapsedHeight: 64,
             automaticallyImplyLeading: false,
             titleSpacing: 0,
+            // top bar for profile visit too
             title: const TopBarRow(),
             flexibleSpace: const FlexibleSpaceBar(
               collapseMode: CollapseMode.pin,
